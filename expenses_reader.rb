@@ -1,9 +1,6 @@
 # encoding: utf-8
 #
 # Программа для учета расходов с использованием XML
-#
-# (с) goodprogrammer.ru
-#
 # Этот код необходим только при использовании русских букв на Windows
 if Gem.win_platform?
   Encoding.default_external = Encoding.find(Encoding.locale_charmap)
